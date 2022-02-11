@@ -1,0 +1,6 @@
+{
+	"layout": "layouts/work-item",
+	"templateEngineOverride": "njk,md",
+	"permalink": "/work/{{ title | slug }}/index.html",
+	"tags": ["Work"]
+}
