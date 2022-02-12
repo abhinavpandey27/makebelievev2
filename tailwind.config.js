@@ -161,7 +161,7 @@ module.exports = {
               fontSize: '1.1rem',
               lineHeight: '1.62',
               fontWeight: '400',
-              letterSpacing: '-0.016em'
+              letterSpacing: '-0.008em'
             },
             a: {
               color: '#B9F073',
