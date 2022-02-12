@@ -5,7 +5,7 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   mode: 'jit',
-  purge: ['./src/**/*.njk', './src/**/*.md',],
+  content: ['./src/**/*.njk', './src/**/*.md',],
   darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {
@@ -28,7 +28,7 @@ module.exports = {
       },
       animation: ['hover', 'focus'],
       maxWidth: {
-        '8xl': '90rem',
+        '8xl': '1380px',
        },
        colors: {
         transparent: 'transparent',
