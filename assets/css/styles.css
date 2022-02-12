@@ -248,6 +248,14 @@
         src: url("/fonts/Piazzolla-BlackItalic.woff2") format("woff2");
       }
 
+      @font-face {
+        font-family: 'PPEditorialNew';
+        font-style:  italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url("/fonts/PPEditorialNew-Italic.otf") format("woff2");
+      }
+
       .lazy-img {
         filter: blur(8px);
         transition: filter 0.3s ease-in;

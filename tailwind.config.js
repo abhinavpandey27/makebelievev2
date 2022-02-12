@@ -26,10 +26,17 @@ module.exports = {
         '128': '32rem',
 
       },
+      width:{
+        vsm: '.5px',
+      },
       animation: ['hover', 'focus'],
       maxWidth: {
         '8xl': '1380px',
        },
+       lineHeight: {
+        'vtight': '1',
+
+      },
        colors: {
         transparent: 'transparent',
         current: 'currentColor',
@@ -60,6 +67,7 @@ module.exports = {
         inter: ["'Inter var'", ...defaultTheme.fontFamily.sans],
         Piazzolla: ["'Piazzolla'", ...defaultTheme.fontFamily.serif],
         OpenSauceSans: ["'Open Sauce Sans'", ...defaultTheme.fontFamily.serif],
+        Newsreader: ["'PPEditorialNew'", ...defaultTheme.fontFamily.serif]
       },
       typography: (theme) => ({
         DEFAULT: {
