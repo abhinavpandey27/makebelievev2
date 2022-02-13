@@ -9,8 +9,9 @@ beautiful places on earth.'
 duration: JUN 2019 - SEP 2019 • LONDON, UK
 displayOrder: 4
 featured: true
+video: /img/ADs-Gif.mp4
 hero:
-  image: '/img/abhinav.jpg'
+  image: '/img/work/ADs-Gif-v3.gif'
   imageAlt: 'A composition of all the views from the app'
 projectOverview:
   context: 'Personal Project'

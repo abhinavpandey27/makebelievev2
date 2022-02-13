@@ -31,7 +31,7 @@ module.exports = {
       },
       animation: ['hover', 'focus'],
       maxWidth: {
-        '8xl': '1380px',
+        '8xl': '1440px',
        },
        lineHeight: {
         'vtight': '1',
