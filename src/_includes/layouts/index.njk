@@ -127,6 +127,14 @@ layout: layouts/base.njk
   {% include 'partials/featured-work.njk' %}
 {% endblock featuredWork %}
 
+{% set postListItems = pagination.items %}
+
+  {% block content %}
+  <article>
+    {% include "partials/post-list-no-tags.njk" %}
+  </article>
+  {% endblock %}
+
 
 
 
