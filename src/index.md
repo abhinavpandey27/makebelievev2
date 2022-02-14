@@ -8,7 +8,7 @@ description: Designer that sometimes get his code to work.
 eleventyExcludeFromCollections: true
 pagination:
   data: collections.blog
-  size: 3
+  size: 6
 ---
 
 

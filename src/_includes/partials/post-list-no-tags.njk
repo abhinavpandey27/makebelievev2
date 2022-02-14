@@ -2,7 +2,7 @@
     
     
     
-<div class="grid grid-cols-12 pt-8 divide-x divide-gray-200 dark:divide-gray-700">
+<div class="grid grid-cols-12 divide-x divide-gray-200 dark:divide-gray-700">
 
 
     <div class="col-span-12">
@@ -14,21 +14,19 @@
             <div class="col-span-12 lg:col-span-6 xl:col-span-4 h-auto mb-4 md:mb-0 lg:h-128">
 
                 
+             
 
-                <div class="h-vsm w-full bg-gray-200 dark:bg-gray-700 "></div>
-            
-                
-
-                <div class="pt-8 pb-1">
+                <div class="pb-1">
                     <a href="{{ item.url }}" class="pb-2 pt-2">
-                        <picture class="w-full h-80 flex justify-center items-center rounded-sm overflow-hidden hover:opacity-80">
-                            <img
-                                src="{{ item.data.coverimage}}"
-                                alt="{{ item.data.coverimagealt}}"
-                                loading="lazy"
-                                class="flex-shrink-0 min-w-full min-h-full"
-                            />
-                        </picture>
+                    <div class="flex-shrink-0 rounded-sm overflow-hidden">
+                        <img
+                        src="{{ item.data.coverimage }}"
+                        alt="{{ item.data.coverimagealt }}"
+                        loading="lazy"
+                        class="w-full object-cover aspect-[16/9] md:aspect-[4/3] hover:opacity-90 transition-opacity dark:hover:opacity-80"
+                        />
+                    </div>
+
                     </a>
                 </div>
 
@@ -63,7 +61,7 @@
 
 
                 <div class="pb-2 ">
-                    <a href="{{ item.url }}" class=" pt-2 text-lg border-b border-b-gray-300 dark:border-b-gray-700  md:hover:border-b hover:border-opacity-40 md:hover:border-b-fred md:dark:hover:border-b-fgreen font-bold tracking-tight font-OpenSauceSans text-gray-800 dark:text-gray-100 hover:text-fred dark:hover:text-fgreen md:text-xl">{{ item.data.title }}</a>
+                    <a href="{{ item.url }}" class=" pt-2 text-xl border-b border-b-gray-300 dark:border-b-gray-700  md:hover:border-b hover:border-opacity-40 md:hover:border-b-fred md:dark:hover:border-b-fgreen font-bold tracking-tight font-OpenSauceSans text-gray-800 dark:text-gray-100 hover:text-fred dark:hover:text-fgreen md:text-xl">{{ item.data.title }}</a>
                 </div>
                 <div class="">
                     <p class="pb-2 pt-2 text-sm  font-OpenSauceSans text-gray-700 dark:text-gray-200">{{ item.data.subtext }}</p>
