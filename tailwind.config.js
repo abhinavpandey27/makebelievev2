@@ -9,6 +9,13 @@ module.exports = {
   darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {
+      gridTemplateColumns: {
+        // Simple 16 column grid
+        '18': 'repeat(18, minmax(0, 1fr))',
+      },
+      gridColumn: {
+        'span-18': 'span 18 / span 18',
+      },
       display: ['hover', 'focus'],
       borderRadius: {
         'vsm': '1px',
@@ -67,7 +74,7 @@ module.exports = {
         inter: ["'Inter var'", ...defaultTheme.fontFamily.sans],
         Piazzolla: ["'Piazzolla'", ...defaultTheme.fontFamily.serif],
         OpenSauceSans: ["'Open Sauce Sans'", ...defaultTheme.fontFamily.serif],
-        Newsreader: ["'PPEditorialNew'", ...defaultTheme.fontFamily.serif]
+        Newsreader: ["'Newsreader'", ...defaultTheme.fontFamily.serif]
       },
       typography: (theme) => ({
         DEFAULT: {
@@ -76,8 +83,8 @@ module.exports = {
             fontFamily: 'Inter var',
             p:{
               maxWidth: '65ch',
-              fontSize: '1.1rem',
-              lineHeight: '1.62',
+              fontSize: '1.2rem',
+              lineHeight: '1.55',
               fontWeight: '425',
               letterSpacing: '-0.010em'
             },

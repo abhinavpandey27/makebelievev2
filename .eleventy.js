@@ -7,6 +7,7 @@ const classNames = require('classnames')
 const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 const Image = require("@11ty/eleventy-img");
 
+
 const widths = [600, 1280];
 const formats = ["webp", "jpeg"];
 const sizes = "100vw";
@@ -59,6 +60,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   eleventyConfig.addPlugin(UpgradeHelper);
+
+  const { EleventyRenderPlugin } = require("@11ty/eleventy");
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
 
 
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
