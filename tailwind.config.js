@@ -79,22 +79,29 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            color: theme('colors.gray.800'),
+            color: theme('colors.gray.900'),
             fontFamily: 'Inter var',
             p:{
               maxWidth: '65ch',
-              fontSize: '1.2rem',
+              fontSize: '1.1rem',
               lineHeight: '1.55',
-              fontWeight: '425',
+              fontWeight: '420',
               letterSpacing: '-0.010em'
             },
             ul:{
               maxWidth: '65ch',
               fontSize: '1.1rem',
+              lineHeight: '1.60',
+              fontWeight: '425',
+              letterSpacing: '-0.010em'
+              
             },
             li:{
               maxWidth: '65ch',
               fontSize: '1.1rem',
+              lineHeight: '1.60',
+              fontWeight: '425',
+              letterSpacing: '-0.010em'
             },
 
             img:{
@@ -174,7 +181,7 @@ module.exports = {
             p:{
               maxWidth: '65ch',
               fontSize: '1.1rem',
-              lineHeight: '1.62',
+              lineHeight: '1.60',
               fontWeight: '400',
               letterSpacing: '-0.008em'
             },

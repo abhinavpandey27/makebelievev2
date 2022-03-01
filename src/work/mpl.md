@@ -1,5 +1,6 @@
 ---
 templateEngineOverride: njk,md
+layout: "layouts/mpl-work-item"
 metaTitle: 'MPL'
 metaDescription: Work Title 4 Description
 title: 'MPL'
@@ -22,5 +23,10 @@ projectOverview:
 section1:
   heading: 'MPL Fantasy Pro'
   subheading1: 'Introduction'
-  subheading2: 'Design Process'
+  subheading2: 'Fantasy Constructs and User Journeys'
+  subheading3: 'Feature Definition'
+  subheading4: 'My Role'
+  subheading5: 'Challenges Faced'
+  subheading6: 'Existing Flow 🡲 New Flow'
+  subheading7: 'Leaderboard Screen'
 ---
