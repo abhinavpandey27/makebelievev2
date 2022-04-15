@@ -256,6 +256,32 @@
         src: url("/fonts/PPEditorialNew-Italic.otf") format("woff2");
       }
 
+
+
+
+      @font-face {
+        font-family: 'Redaction';
+        font-style:  normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url("/fonts/Redaction-Regular.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: 'Redaction';
+        font-style:  italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url("/fonts/Redaction-Italic.woff2") format("woff2");
+      }
+
+      @font-face {
+        font-family: 'Redaction';
+        font-style:  normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url("/fonts/Redaction-Bold.woff2") format("woff2");
+      }
+
       .lazy-img {
         filter: blur(8px);
         transition: filter 0.3s ease-in;

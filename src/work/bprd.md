@@ -1,13 +1,13 @@
 ---
 templateEngineOverride: njk,md
-metaTitle: 'Pocket Redesign'
+metaTitle: 'BPRD'
 metaDescription: Work Title 2 Description
-title: 'Pocket Redesign'
+title: 'BPRD'
 description: Work Title 2 Description
 summary: 'A travel journal that transports you to some of the most
 beautiful places on earth.'
 duration: JUN 2019 - SEP 2019 • LONDON, UK
-displayOrder: 6
+displayOrder: 8
 featured: true
 video: /img/ADs-Gif.mp4
 hero:

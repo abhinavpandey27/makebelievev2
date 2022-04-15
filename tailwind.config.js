@@ -86,7 +86,7 @@ module.exports = {
               fontSize: '1.1rem',
               lineHeight: '1.55',
               fontWeight: '420',
-              letterSpacing: '-0.010em'
+              letterSpacing: '-0.004em'
             },
             ul:{
               maxWidth: '65ch',

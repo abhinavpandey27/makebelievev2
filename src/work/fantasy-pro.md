@@ -1,9 +1,9 @@
 ---
 templateEngineOverride: njk,md
 layout: "layouts/mpl-work-item"
-metaTitle: 'MPL'
+metaTitle: 'MPL Fantasy Pro'
 metaDescription: Work Title 4 Description
-title: 'MPL'
+title: 'MPL Fantasy Pro'
 displaytitle: 'Mobile Premier League'
 description: 'Designing mobile products, interfaces and systems for India’s biggest gaming platform.'
 summary: 'A travel journal that transports you to some of the most
