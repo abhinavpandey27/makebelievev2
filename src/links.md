@@ -10,5 +10,6 @@ eleventyNavigation:
 pagination:
   data: collections.links
   size: 15
+eleventyExcludeFromCollections: true
 ---
 

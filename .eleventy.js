@@ -60,6 +60,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   eleventyConfig.addPlugin(UpgradeHelper);
+  
 
   const { EleventyRenderPlugin } = require("@11ty/eleventy");
   eleventyConfig.addPlugin(EleventyRenderPlugin);

@@ -10,5 +10,6 @@ eleventyNavigation:
 sideInfo:
     title: 'Work and Craft'
     subtext: 'Thoughts on the future of work, from the people and teams creating it.'
+eleventyExcludeFromCollections: true
 ---
 
