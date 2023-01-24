@@ -6,7 +6,7 @@ const markdownItAnchor = require('markdown-it-anchor')
 const classNames = require('classnames')
 const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 const Image = require("@11ty/eleventy-img");
-
+const faviconsPlugin = require("eleventy-plugin-gen-favicons");
 
 const widths = [600, 1280];
 const formats = ["webp", "jpeg"];
@@ -55,6 +55,10 @@ module.exports = function(eleventyConfig) {
    */
   eleventyConfig.addPassthroughCopy('src/img')
   eleventyConfig.addPassthroughCopy('src/fonts')
+
+
+  eleventyConfig.addPlugin(faviconsPlugin, {'outputDir': './generated_site', 'manifestData': {'name': 'My Website'}});
+
 
   const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
