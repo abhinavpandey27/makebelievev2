@@ -57,7 +57,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/fonts')
 
 
-  eleventyConfig.addPlugin(faviconsPlugin, {'outputDir': './generated_site', 'manifestData': {'name': 'My Website'}});
+  eleventyConfig.addPlugin(faviconsPlugin, {'outputDir': './_site', 'manifestData': {'name': 'Abhinav Pandey'}});
 
 
   const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
